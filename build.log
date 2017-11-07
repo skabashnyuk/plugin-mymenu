@@ -1,0 +1,532 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Menu Sample :: Parent pom
+[INFO] Menu Sample :: Plugins ::  Parent
+[INFO] Menu Sample :: Plugin Menu :: Parent
+[INFO] Menu Sample :: Plugin Menu :: IDE
+[INFO] Menu Sample :: Che Assembly :: Assembly Parent
+[INFO] Menu Sample :: Che Assembly :: Assembly Parent
+[INFO] Menu Sample :: Che Assembly :: Assembly Parent
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Menu Sample :: Parent pom 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ plugin-mymenu ---
+[INFO] Executing: /bin/sh -c cd /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu && git rev-parse --verify HEAD
+[INFO] Working directory: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu
+[INFO] Storing buildNumber: 0e4eb9bcacf64668e44642e97448433549b3ee52 at timestamp: 20171107
+[INFO] Storing buildScmBranch: che-7037
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java-version) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven-version) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (distribution-management-used) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (no-distribution-management-at-all) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (dependency) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (ban-bad-dependencies) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- maven-sortpom-plugin:2.3.0:verify (default) @ plugin-mymenu ---
+[INFO] Skipping Sortpom
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:check (default) @ plugin-mymenu ---
+[warn] Source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/src/main/java' does not exist, ignoring.
+[warn] Test source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/src/test/java' does not exist, ignoring.
+[INFO] Processed 0 files (0 non-complying).
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (check-headers) @ plugin-mymenu ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (attach-sources) @ plugin-mymenu ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:analyze-only (analyze) @ plugin-mymenu ---
+[INFO] Skipping pom project
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ plugin-mymenu ---
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/pom.xml to /home/mike/.m2/repository/archetype/it/plugin-mymenu/0.1-SNAPSHOT/plugin-mymenu-0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Menu Sample :: Plugins ::  Parent 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ plugin-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ plugin-parent ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ plugin-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java-version) @ plugin-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven-version) @ plugin-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (distribution-management-used) @ plugin-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (no-distribution-management-at-all) @ plugin-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (dependency) @ plugin-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (ban-bad-dependencies) @ plugin-parent ---
+[INFO] 
+[INFO] --- maven-sortpom-plugin:2.3.0:verify (default) @ plugin-parent ---
+[INFO] Skipping Sortpom
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:check (default) @ plugin-parent ---
+[warn] Source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/src/main/java' does not exist, ignoring.
+[warn] Test source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/src/test/java' does not exist, ignoring.
+[INFO] Processed 0 files (0 non-complying).
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (check-headers) @ plugin-parent ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (attach-sources) @ plugin-parent ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:analyze-only (analyze) @ plugin-parent ---
+[INFO] Skipping pom project
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ plugin-parent ---
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/pom.xml to /home/mike/.m2/repository/archetype/it/plugin-parent/0.1-SNAPSHOT/plugin-parent-0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Menu Sample :: Plugin Menu :: Parent 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java-version) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven-version) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (distribution-management-used) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (no-distribution-management-at-all) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (dependency) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (ban-bad-dependencies) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- maven-sortpom-plugin:2.3.0:verify (default) @ plugin-menu-parent ---
+[INFO] Skipping Sortpom
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:check (default) @ plugin-menu-parent ---
+[warn] Source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/src/main/java' does not exist, ignoring.
+[warn] Test source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/src/test/java' does not exist, ignoring.
+[INFO] Processed 0 files (0 non-complying).
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (check-headers) @ plugin-menu-parent ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (attach-sources) @ plugin-menu-parent ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:analyze-only (analyze) @ plugin-menu-parent ---
+[INFO] Skipping pom project
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ plugin-menu-parent ---
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/pom.xml to /home/mike/.m2/repository/archetype/it/plugin-menu-parent/0.1-SNAPSHOT/plugin-menu-parent-0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Menu Sample :: Plugin Menu :: IDE 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java-version) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven-version) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (distribution-management-used) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (no-distribution-management-at-all) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (dependency) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (ban-bad-dependencies) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- maven-sortpom-plugin:2.3.0:verify (default) @ plugin-menu-ide ---
+[INFO] Skipping Sortpom
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:check (default) @ plugin-menu-ide ---
+[warn] Test source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/src/test/java' does not exist, ignoring.
+[INFO] Processed 3 files (0 non-complying).
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (check-headers) @ plugin-menu-ide ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:enforce-encoding (default-enforce-encoding) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:add-super-sources (default-add-super-sources) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:add-test-super-sources (default-add-test-super-sources) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:generate-module (default-generate-module) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:generate-module-metadata (default-generate-module-metadata) @ plugin-menu-ide ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ plugin-menu-ide ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/src/main/resources
+[INFO] skip non existing resourceDirectory /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/src/main/super
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ plugin-menu-ide ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ plugin-menu-ide ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/src/test/resources
+[INFO] skip non existing resourceDirectory /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/src/test/super
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ plugin-menu-ide ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:test (default-test) @ plugin-menu-ide ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:package-lib (default-package-lib) @ plugin-menu-ide ---
+[INFO] Building jar: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/target/plugin-menu-ide-0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (attach-sources) @ plugin-menu-ide ---
+[INFO] Building jar: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/target/plugin-menu-ide-0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:analyze-only (analyze) @ plugin-menu-ide ---
+[INFO] No dependency problems found
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ plugin-menu-ide ---
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/target/plugin-menu-ide-0.1-SNAPSHOT.jar to /home/mike/.m2/repository/archetype/it/plugin-menu-ide/0.1-SNAPSHOT/plugin-menu-ide-0.1-SNAPSHOT.jar
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/pom.xml to /home/mike/.m2/repository/archetype/it/plugin-menu-ide/0.1-SNAPSHOT/plugin-menu-ide-0.1-SNAPSHOT.pom
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/plugins/plugin-mymenu/plugin-mymenu-ide/target/plugin-menu-ide-0.1-SNAPSHOT-sources.jar to /home/mike/.m2/repository/archetype/it/plugin-menu-ide/0.1-SNAPSHOT/plugin-menu-ide-0.1-SNAPSHOT-sources.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Menu Sample :: Che Assembly :: Assembly Parent 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java-version) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven-version) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (distribution-management-used) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (no-distribution-management-at-all) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (dependency) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (ban-bad-dependencies) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- maven-sortpom-plugin:2.3.0:verify (default) @ plugin-menu-assembly-parent ---
+[INFO] Skipping Sortpom
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:check (default) @ plugin-menu-assembly-parent ---
+[warn] Source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/src/main/java' does not exist, ignoring.
+[warn] Test source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/src/test/java' does not exist, ignoring.
+[INFO] Processed 0 files (0 non-complying).
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (check-headers) @ plugin-menu-assembly-parent ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (attach-sources) @ plugin-menu-assembly-parent ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:analyze-only (analyze) @ plugin-menu-assembly-parent ---
+[INFO] Skipping pom project
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ plugin-menu-assembly-parent ---
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/pom.xml to /home/mike/.m2/repository/archetype/it/plugin-menu-assembly-parent/0.1-SNAPSHOT/plugin-menu-assembly-parent-0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Menu Sample :: Che Assembly :: Assembly Parent 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ assembly-ide-war ---
+[INFO] ShortRevision tag detected. The value is '16'.
+[INFO] Executing: /bin/sh -c cd /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war && git rev-parse --verify --short=16 HEAD
+[INFO] Working directory: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war
+[INFO] Storing buildNumber: 0e4eb9bcacf64668 at timestamp:  2017-11-07 13:03:07
+[INFO] Storing buildScmBranch: che-7037
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java-version) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven-version) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (distribution-management-used) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (no-distribution-management-at-all) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (dependency) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (ban-bad-dependencies) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- maven-sortpom-plugin:2.3.0:verify (default) @ assembly-ide-war ---
+[INFO] Skipping Sortpom
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:check (default) @ assembly-ide-war ---
+[warn] Source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/src/main/java' does not exist, ignoring.
+[warn] Test source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/src/test/java' does not exist, ignoring.
+[INFO] Processed 0 files (0 non-complying).
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (check-headers) @ assembly-ide-war ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (extManager-client) @ assembly-ide-war ---
+ ------------------------------------------------------------------------ 
+Searching for Extensions in /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/generated-sources/gen
+ ------------------------------------------------------------------------ 
+New Extension Found: it.pkg.ide.SampleMenuExtension
+New Extension Found: org.eclipse.che.ide.editor.orion.client.OrionEditorExtension
+New Extension Found: org.eclipse.che.ide.factory.FactoryExtension
+Found: 3 extensions
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (IDEInjector-client) @ assembly-ide-war ---
+ ------------------------------------------------------------------------ 
+Searching for GinModules in /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/generated-sources/gen
+ ------------------------------------------------------------------------ 
+New Gin Module Found: org.eclipse.che.ide.editor.orion.client.inject.OrionEditorGinModule
+New Gin Module Found: org.eclipse.che.ide.bootstrap.BootstrapModule
+New Gin Module Found: org.eclipse.che.ide.core.CoreGinModule
+New Gin Module Found: it.pkg.ide.inject.SampleMenuGinModule
+Found: 4 Gin Modules
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (DtoRegistry-client) @ assembly-ide-war ---
+ ------------------------------------------------------------------------ 
+Searching for DTO
+ ------------------------------------------------------------------------ 
+New DtoFactoryVisitor found: org.eclipse.che.ide.api.dto.DtoClientImpls
+Found: 1 DtoFactoryVisitor(s)
+[INFO] 
+[INFO] --- che-core-dyna-provider-generator-maven-plugin:6.0.0-M2-SNAPSHOT:generate (default) @ assembly-ide-war ---
+New Dyna Object Found: org.eclipse.che.ide.part.explorer.project.ProjectExplorerPresenter
+New Dyna Object Found: org.eclipse.che.ide.command.explorer.CommandsExplorerPresenter
+New Dyna Object Found: org.eclipse.che.ide.notification.NotificationManagerImpl
+Found: 3 Dyna Objects
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ assembly-ide-war ---
+[INFO] Source directory: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/generated-sources/gen added.
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:generate-module (default) @ assembly-ide-war ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ assembly-ide-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ assembly-ide-war ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/classes
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (buildnumber) @ assembly-ide-war ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ assembly-ide-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ assembly-ide-war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ assembly-ide-war ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0-rc-8:compile (default) @ assembly-ide-war ---
+[INFO] Compiling module org.eclipse.che.ide.IDE
+[INFO]    Ignored 84 units with compilation errors in first pass.
+[INFO] Compile with -strict or with -logLevel set to TRACE or DEBUG to see all errors.
+[INFO]    Computing all possible rebind results for 'com.google.gwt.useragent.client.UserAgentAsserter'
+[INFO]       Rebinding com.google.gwt.useragent.client.UserAgentAsserter
+[INFO]          Checking rule <generate-with class='com.google.gwt.editor.rebind.SimpleBeanEditorDriverGenerator'/>
+[INFO]             [WARN] Detected warnings related to 'com.google.gwt.editor.client.SimpleBeanEditorDriver'.   Are validation-api-<version>.jar and validation-api-<version>-sources.jar on the classpath?
+[INFO]             Specify -logLevel DEBUG to see all errors.
+[INFO]             [WARN] Unknown type 'com.google.gwt.editor.client.SimpleBeanEditorDriver' specified in deferred binding rule
+[INFO]    Computing all possible rebind results for 'org.eclipse.che.ide.Resources'
+[INFO]       Rebinding org.eclipse.che.ide.Resources
+[INFO]          Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+[INFO]             Creating assignment for about()
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/about.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-ui/6.0.0-M2-SNAPSHOT/che-core-ide-ui-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/list/arrowExpansionIcon.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/console/clear.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-commons-gwt/6.0.0-M2-SNAPSHOT/che-core-commons-gwt-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/zeroclipboard/clipboard.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-commons-gwt/6.0.0-M2-SNAPSHOT/che-core-commons-gwt-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/tree/collapsedIcon.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/copy.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/cut.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/defaulticons/file.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/defaulticons/folder.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/defaulticons/image-icon.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/delete.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/zip-folder.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/machine/edit-commands.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-api/6.0.0-M2-SNAPSHOT/che-core-ide-api-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/api/parts/erase.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-commons-gwt/6.0.0-M2-SNAPSHOT/che-core-commons-gwt-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/tree/expandedIcon.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/command/explorer/explorer-part.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/find.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/find-actions.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/format.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/import.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/importProjectFromLocation.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/importGroup.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/defaulticons/json.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/defaulticons/md.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/navigate-to-file.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/newProject.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/new-resource.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/paste.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/preferences.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/notification/progress.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/project-configuration.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/defaulticons/projectFolder.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/workspace/recipe.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/redo.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/refresh.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/machine/remote.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/rename.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/save.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/showHiddenFiles.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/undo.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/actions/upload-file.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/xml/xml.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/machine/console/clear-logs.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/machine/edit-commands.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/machine/remote.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/factory/export-config.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/project/node/icon/dockerfile.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-commons-gwt/6.0.0-M2-SNAPSHOT/che-core-commons-gwt-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/loaders/request/progress.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/command/explorer/explorer-part.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-ui/6.0.0-M2-SNAPSHOT/che-core-ide-ui-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/smartTree/iconCollapsed.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-ui/6.0.0-M2-SNAPSHOT/che-core-ide-ui-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/smartTree/iconExpanded.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-commons-gwt/6.0.0-M2-SNAPSHOT/che-core-commons-gwt-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/zeroclipboard/clipboard.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-ui/6.0.0-M2-SNAPSHOT/che-core-ide-ui-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/dropdown/expansionIcon.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/menu/submenu.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/project/shared/file.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/project/shared/hiddenSimpleFolder.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/project/shared/notValidProjectFolder.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/project/shared/projectFolder.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-app/6.0.0-M2-SNAPSHOT/che-core-ide-app-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/project/shared/simpleFolder.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-ui/6.0.0-M2-SNAPSHOT/che-core-ide-ui-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/ui/menubutton/arrowIcon.svg)
+[INFO]                resolveResource(http://www.w3.org/TR/REC-xml, null, -//W3C//DTD SVG 1.1//EN, http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd, jar:file:/home/mike/.m2/repository/org/eclipse/che/core/che-core-ide-api/6.0.0-M2-SNAPSHOT/che-core-ide-api-6.0.0-M2-SNAPSHOT.jar!/org/eclipse/che/ide/api/parts/erase.svg)
+[INFO]    Compiling 2 permutations
+[INFO]       Compiling permutation 0...
+[INFO]       Source Maps Enabled
+[INFO]       Compiling permutation 1...
+[INFO]       Source Maps Enabled
+[INFO]    Compile of permutations succeeded
+[INFO]    Compilation succeeded -- 114.277s
+[INFO] Linking into /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/assembly-ide-war-0.1-SNAPSHOT/_app
+[INFO]    Link succeeded
+[INFO]    Linking succeeded -- 1.448s
+[INFO] 
+[INFO] --- maven-war-plugin:3.1.0:war (default-war) @ assembly-ide-war ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [assembly-ide-war] in [/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/assembly-ide-war-0.1-SNAPSHOT]
+[INFO] Processing overlay [ id org.eclipse.che:assembly-ide-war]
+[INFO] Processing war project
+[INFO] Webapp assembled in [404 msecs]
+[INFO] Building war: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/assembly-ide-war-0.1-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (attach-sources) @ assembly-ide-war ---
+[INFO] Building jar: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/assembly-ide-war-0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:analyze-only (analyze) @ assembly-ide-war ---
+[INFO] Skipping plugin execution
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ assembly-ide-war ---
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/assembly-ide-war-0.1-SNAPSHOT.war to /home/mike/.m2/repository/archetype/it/assembly-ide-war/0.1-SNAPSHOT/assembly-ide-war-0.1-SNAPSHOT.war
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/pom.xml to /home/mike/.m2/repository/archetype/it/assembly-ide-war/0.1-SNAPSHOT/assembly-ide-war-0.1-SNAPSHOT.pom
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-ide-war/target/assembly-ide-war-0.1-SNAPSHOT-sources.jar to /home/mike/.m2/repository/archetype/it/assembly-ide-war/0.1-SNAPSHOT/assembly-ide-war-0.1-SNAPSHOT-sources.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Menu Sample :: Che Assembly :: Assembly Parent 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ assembly-main ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ assembly-main ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ assembly-main ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java-version) @ assembly-main ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven-version) @ assembly-main ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (distribution-management-used) @ assembly-main ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (no-distribution-management-at-all) @ assembly-main ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (dependency) @ assembly-main ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (ban-bad-dependencies) @ assembly-main ---
+[INFO] 
+[INFO] --- maven-sortpom-plugin:2.3.0:verify (default) @ assembly-main ---
+[INFO] Skipping Sortpom
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:check (default) @ assembly-main ---
+[warn] Source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/src/main/java' does not exist, ignoring.
+[warn] Test source directory '/home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/src/test/java' does not exist, ignoring.
+[INFO] Processed 0 files (0 non-complying).
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (check-headers) @ assembly-main ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:unpack (unpack-tomcat) @ assembly-main ---
+[INFO] Configured Artifact: org.eclipse.che:assembly-main:6.0.0-M2-SNAPSHOT:zip
+[INFO] Unpacking /home/mike/.m2/repository/org/eclipse/che/assembly-main/6.0.0-M2-SNAPSHOT/assembly-main-6.0.0-M2-SNAPSHOT.zip to /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/target/dependency with includes "" and excludes ""
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.1.0:single (make-assembly) @ assembly-main ---
+[INFO] Reading assembly descriptor: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/src/assembly/assembly.xml
+[INFO] Copying files to /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/target/eclipse-che-0.1-SNAPSHOT
+[WARNING] Assembly file: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/target/eclipse-che-0.1-SNAPSHOT is not a regular file (it may be a directory). It cannot be attached to the project build for installation or deployment.
+[INFO] Building zip: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/target/eclipse-che-0.1-SNAPSHOT.zip
+[INFO] Building tar: /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/target/eclipse-che-0.1-SNAPSHOT.tar.gz
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (attach-sources) @ assembly-main ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:analyze-only (analyze) @ assembly-main ---
+[INFO] Skipping pom project
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ assembly-main ---
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/pom.xml to /home/mike/.m2/repository/archetype/it/assembly-main/0.1-SNAPSHOT/assembly-main-0.1-SNAPSHOT.pom
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/target/eclipse-che-0.1-SNAPSHOT.zip to /home/mike/.m2/repository/archetype/it/assembly-main/0.1-SNAPSHOT/assembly-main-0.1-SNAPSHOT.zip
+[INFO] Installing /home/mike/IdeaProjects/codenvy/che-archetypes/plugin-menu-archetype/target/test-classes/projects/basic/project/plugin-mymenu/assembly/assembly-main/target/eclipse-che-0.1-SNAPSHOT.tar.gz to /home/mike/.m2/repository/archetype/it/assembly-main/0.1-SNAPSHOT/assembly-main-0.1-SNAPSHOT.tar.gz
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Menu Sample :: Parent pom .......................... SUCCESS [  1.622 s]
+[INFO] Menu Sample :: Plugins ::  Parent .................. SUCCESS [  0.036 s]
+[INFO] Menu Sample :: Plugin Menu :: Parent ............... SUCCESS [  0.034 s]
+[INFO] Menu Sample :: Plugin Menu :: IDE .................. SUCCESS [  6.452 s]
+[INFO] Menu Sample :: Che Assembly :: Assembly Parent ..... SUCCESS [  0.032 s]
+[INFO] Menu Sample :: Che Assembly :: Assembly Parent ..... SUCCESS [02:09 min]
+[INFO] Menu Sample :: Che Assembly :: Assembly Parent ..... SUCCESS [ 12.154 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:31 min
+[INFO] Finished at: 2017-11-07T13:05:28+02:00
+[INFO] Final Memory: 60M/1482M
+[INFO] ------------------------------------------------------------------------
